@@ -1,0 +1,7 @@
+<app-add-item (addItem)="addItem($event)"></app-add-item>
+<div class="list">
+  <ul>
+    <app-item *ngFor="let item of items" [item]="item" (deleteItem)="deleteItem($event)"></app-item>
+  </ul>
+</div>
+<button (click)="clearList()">Clear list</button>

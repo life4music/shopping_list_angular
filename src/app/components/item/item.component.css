@@ -1,0 +1,23 @@
+.item {
+  position: relative;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+
+button {
+  position: absolute;
+  right: 0;
+  background-color: rgb(245, 225, 111);
+  border-style: none;
+  cursor: pointer;
+}
+
+i {
+  font-size: 18px;
+}
+
+.crossed {
+  text-decoration: line-through;
+}
